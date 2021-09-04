@@ -1,9 +1,15 @@
-//Variables
+//Colors
 $primary-color: hsl(18, 97%, 64%);
 $secondary-color: hsl(40, 96%, 65%);
 $neutral-color: hsl(42, 100%, 88%);
 $special-color: hsl(191, 100%, 70%);
+
+//Images
 $hero-banner: url("../img/banner.jpg");
+
+//Typography
+$barlow: "Barlow", sans-serif;
+$fraunces: "Fraunces", serif;
 
 //resets
 * {
@@ -14,5 +20,9 @@ $hero-banner: url("../img/banner.jpg");
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
