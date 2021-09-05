@@ -1,0 +1,51 @@
+.footer {
+  background-color: gray;
+
+  &__content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0.7rem 0;
+    margin: 0 auto;
+    max-width: 85%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+
+    &--flex-end {
+      display: flex;
+      justify-content: flex-end;
+      border: none;
+    }
+  }
+
+  &__title {
+    font-family: $fraunces;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 0.8rem;
+  }
+
+  &__text {
+    font-family: $barlow;
+    font-size: 0.875rem;
+
+    &--margin-top {
+      margin-top: 0.3rem;
+    }
+  }
+}
+
+.social-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 700px) {
+  .footer {
+    &__content {
+      grid-template-columns: 1fr;
+      gap: 0.2rem;
+    }
+  }
+}

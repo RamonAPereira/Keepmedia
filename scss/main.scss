@@ -4,7 +4,9 @@
 @import "hero";
 @import "about";
 @import "services";
+@import "footer";
 
 .main {
   margin-top: 12vh;
+  background-color: $neutral-color;
 }

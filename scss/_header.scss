@@ -5,7 +5,7 @@
   top: 0;
   min-height: 12vh;
   padding: 0.2rem 2rem;
-  background-color: gray;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .navigation-menu {
-  background: gray;
+  background: #fff;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -26,7 +26,7 @@
     text-transform: capitalize;
 
     &:hover {
-      color: yellow;
+      color: $secondary-color;
       transition: color 0.2s ease-in;
     }
   }
@@ -37,8 +37,8 @@
     padding: 0.4rem 1rem 0.6rem 1rem;
 
     &:hover {
-      color: yellow;
-      background: brown;
+      color: #fff;
+      background: #25d366;
       transition: all 0.2s ease-in;
     }
   }
