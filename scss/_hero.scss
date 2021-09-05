@@ -1,0 +1,51 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+  text-align: left;
+  background: url("../img/banner.jpg") no-repeat center center / cover;
+  height: 86vh;
+  color: $white;
+
+  &__container {
+    width: 47%;
+  }
+  &__title {
+    font-family: $fraunces;
+    font-size: 4.125rem;
+
+    &--yellow {
+      color: $secondary-color;
+    }
+  }
+
+  &__description {
+    font-family: $barlow;
+    max-width: 43ch;
+    font-size: 1.325rem;
+
+    &--video {
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    justify-content: center;
+    text-align: center;
+
+    &__description {
+      max-width: 100%;
+    }
+    &__container {
+      width: 100%;
+
+      &--video {
+        display: none;
+      }
+    }
+  }
+}

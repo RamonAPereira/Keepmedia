@@ -27,8 +27,36 @@
       <a href="#" class="navigation-menu__link">Projects</a>
       <a href="#" class="navigation-menu__button">Contact <i class="fab fa-whatsapp"></i></a>
     </nav>
-    <img src="dist/img/icon-hamburger.svg" class="menu-button" onclick="menuActive()">
+    
+    <a href="#" class="menu-button" onclick="menuActive();">
+      <img src="dist/img/icon-hamburger.svg" >
+    </a>
   </header>
+  <main class="main">
+    <section class="hero-section">
+      <div class="hero-section__container">
+        <h1 class="hero-section__title">Keep <span class="hero-section__title--yellow">media</span></h1>
+        <p class="hero-section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolore a laudantium doloribus minus necessitatibus assumenda!  </p>
+      </div>
+      <div class="hero-section__container hero-section__container--video">
+        <video width="100%" controls>
+          <source src="dist/video/hero-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__container">
+        <h2 class="about__title">Quem nós somos</h2>
+        <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, tempore corporis nisi voluptatum quisquam accusantium iusto pariatur, hic eum dolorem accusamus vel natus eos sunt.</p>
+        <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab porro! Nulla voluptates vitae alias totam iure doloremque molestias atque.</p>
+        <p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium non deleniti, impedit commodi dolorum eveniet perferendis cupiditate magnam!</p>
+      </div>
+      <div class="about__container">
+        <img class="about__image" src="dist/img/image-about.svg" alt="">
+      </div>
+    </section>
+  </main>
   
   <script src="dist/js/app.js"></script>
 </body>

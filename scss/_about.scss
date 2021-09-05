@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+
+  &__container {
+    width: 50%;
+    padding: 3rem 2rem;
+  }
+
+  &__title {
+    font-family: $fraunces;
+    font-size: 3.75rem;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-family: $barlow;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  &__image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    flex-direction: column;
+
+    &__container {
+      width: 100%;
+    }
+  }
+}
