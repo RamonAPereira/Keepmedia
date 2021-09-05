@@ -23,9 +23,9 @@
   <header class="header">
     <img src="dist/img/KeepMediaLogo.png" alt="" class="logo">
     <nav class="navigation-menu">
-      <a href="#" class="navigation-menu__link">About</a>
-      <a href="#" class="navigation-menu__link">Projects</a>
-      <a href="#" class="navigation-menu__button">Contact <i class="fab fa-whatsapp"></i></a>
+      <a href="#about" class="navigation-menu__link">Sobre</a>
+      <a href="#" class="navigation-menu__link">Serviços</a>
+      <a href="#" class="navigation-menu__button">Contato <i class="fab fa-whatsapp"></i></a>
     </nav>
     
     <a href="#" class="menu-button" onclick="menuActive();">
@@ -45,7 +45,7 @@
       </div>
     </section>
 
-    <section class="about">
+    <section id="about" class="about">
       <div class="about__container">
         <h2 class="about__title">Quem nós somos</h2>
         <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, tempore corporis nisi voluptatum quisquam accusantium iusto pariatur, hic eum dolorem accusamus vel natus eos sunt.</p>
@@ -54,6 +54,26 @@
       </div>
       <div class="about__container">
         <img class="about__image" src="dist/img/image-about.svg" alt="">
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="services__container">
+        <div class="box">
+          <i class="fas fa-satellite-dish fa-4x services__icon"></i>
+          <h3 class="services__title">Transmissão ao vivo</h3>
+          <p class="services__text">Live streaming para todas as plataformas, simultâneamente, e com alta qualidade de som e imagem.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-desktop fa-4x services__icon"></i>
+          <h3 class="services__title">Edição de video</h3>
+          <p class="services__text">Planejamento e edição audiovisual para criadores de conteúdo e organizadores de eventos de Esports.</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-sitemap fa-4x services__icon"></i>
+          <h3 class="services__title">League OPS</h3>
+          <p class="services__text">Contamos com uma equipe de Admins, TO’s e League Ops dedicados a transformar o seu projeto em realidade.</p>
+        </div>
       </div>
     </section>
   </main>

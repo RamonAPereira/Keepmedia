@@ -1,0 +1,47 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  text-align: center;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1050px;
+    gap: 0.5rem;
+  }
+  &__icon {
+    color: $secondary-color;
+  }
+
+  &__title {
+    font-family: $fraunces;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    color: $secondary-color;
+  }
+
+  &__text {
+    font-family: $barlow;
+    font-size: 1rem;
+  }
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .services {
+    &__container {
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem 4rem;
+    }
+  }
+}
